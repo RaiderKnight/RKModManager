@@ -53,7 +53,7 @@ namespace RKLauncher
                         if (Directory.Exists(path))
                             m_sPath = path;
                         else
-                            MessageBox.Show("The path <" + path + "> does not exist. Sorry for that!", "Erm, sorry!" );
+                            MessageBox.Show("The path <" + path + "> does not exist. Sorry for that!", "Something wrong!");
                         
                         break;
 
@@ -82,19 +82,20 @@ namespace RKLauncher
                 /** string pathToExe = m_sPath + "lifeplay.exe";
                 if(File.Exists(pathToExe))
                 {
-                    var versionInfo = FileVersionInfo.GetVersionInfo(pathToExe);
+                    var versionInfo = FileVersionInfo.GetVersionInfo(pathToExe); Version
                     m_sLifePlayVersionInstalled = versionInfo.ProductVersion;
                 } */
 
-                // Read the change log to get the current version
+                // Read the change log to get the current version - Fline
                 string pathToLog = m_sPath + "Docs\\change_logs.txt";
                 if (File.Exists(pathToLog))
                 {
                     using(StreamReader sr = File.OpenText(pathToLog))
                     {
                         string version = sr.ReadLine();
-                        version = version.Trim(); 
+                        version = version.Trim();
                         version = version.TrimEnd(':');
+                        version = version.Replace("Beta", ".");
                         int idx = version.LastIndexOf(' ');
                         if( idx > 1)
                             version = version.Substring(idx+1);
@@ -207,11 +208,11 @@ namespace RKLauncher
                     }
                 }
 
-                lblInstalledModules.Text = m_ModsInstalled.Count.ToString() + " modules installed (checked: " + DateTime.Now.ToString() + ")";
+                lblInstalledModules.Text = "You have " + m_ModsInstalled.Count.ToString() + " modules installed (checked: " + DateTime.Now.ToString() + ")";
             }
             catch(Exception ex)
             {
-                lblInstalledModules.Text = "I had problems reading your local installation... :-(";
+                lblInstalledModules.Text = "I am unable to display your installed mods... :-(";
             }
         }
 
@@ -236,7 +237,7 @@ namespace RKLauncher
             }
             catch (Exception ex)
             {
-                MessageBox.Show(this, "Cannot download mod repository.\nCheck your connection and/or if a newer version of the mod manager is avalilable.\n\nError message is:\n"+ex.Message, "Ooops!");
+                MessageBox.Show(this, "Cannot download mod repository.\nCheck your connection and/or if a newer version of the mod manager is avalilable.\n\nError message is:\n"+ex.Message, "Connect 404!");
                 canContinue = false;
             }
 
@@ -306,7 +307,7 @@ namespace RKLauncher
                         }
                         catch(Exception ex)
                         {
-                            MessageBox.Show("Whoops... Something is wrong with my repository!\nError code: " + ex.Message);
+                            MessageBox.Show("Something is wrong with the repository!\nError code: " + ex.Message);
                         }
                         
                     }
@@ -339,7 +340,7 @@ namespace RKLauncher
                 {
                     if (minorInst < minorAvail)
                     {
-                        DialogResult dr = MessageBox.Show("Looks like you are running an old version of LifePlay.\nShall I open the download site for you?", "LifePlay is out dated", MessageBoxButtons.YesNo);
+                        DialogResult dr = MessageBox.Show("Looks like you are running an old version of LifePlay.\nWould you like to download the latest version?", "LifePlay is out dated", MessageBoxButtons.YesNo);
                         if (dr == System.Windows.Forms.DialogResult.Yes)
                         {
                             Process.Start("https://f95zone.to/threads/lifeplay-v2-17-vinfamy.11321/");
@@ -351,7 +352,7 @@ namespace RKLauncher
 
             if(m_sLauncherVersionAvailable.Length>0 && m_sLauncherVersionAvailable != Application.ProductVersion.ToString())
             {
-                DialogResult dr = MessageBox.Show("There is a new version of the launcher available.\nShall I open the download site for you?", "Launcher is out dated", MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("There is a new version of the launcher available.\nWould you like to download the latest version?", "RKLauncher is out dated", MessageBoxButtons.YesNo);
                 if (dr == System.Windows.Forms.DialogResult.Yes)
                 {
                     Process.Start("https://github.com/RaiderKnight/RKModManager/releases/latest");
@@ -399,7 +400,7 @@ namespace RKLauncher
             }
             else
             {
-                MessageBox.Show("Ouch! I could not find the 'LifePlay.exe' in the same directory as 'RKLauncher.exe'.\n\nPlease make sure you extracted the RKLauncher into your LifePlay game directory.\n\nCheck the readme.txt file for further information. Thanks...", "LifePlay not found :-(");
+                MessageBox.Show("I could not find the 'LifePlay.exe' in the same directory as 'RKLauncher.exe'.\n\nPlease make sure you extracted the RKLauncher into your LifePlay game directory.\n\nCheck the readme.md file for further information. Thanks...", "LifePlay not found :-(");
             }
 
         }
@@ -508,9 +509,9 @@ namespace RKLauncher
                 else
                 {
                     if( selMod.isAddon() )
-                        MessageBox.Show("You cannot disable addons like character packs or room presets.", "Ooopsie...");
+                        MessageBox.Show("You cannot disable addons like character packs or room presets.", "Delete them from the root...");
                     else
-                        MessageBox.Show("Disabling the base game files is not the best idea you had today...\nI'll keep them enabled for you.", "Eh what?");
+                        MessageBox.Show("Disabling the base game files will break the game...\nI'll keep them enabled for you.", "Better like that!");
                 }
             }
         }
@@ -524,7 +525,7 @@ namespace RKLauncher
         {
             if (lbInst.SelectedItem != null)
             {
-                DialogResult dr = MessageBox.Show("Are you sure you want to delete the mod?","Delete mod",MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("Are you sure you want to delete this mod?","Delete mod",MessageBoxButtons.YesNo);
                 if (dr == System.Windows.Forms.DialogResult.Yes)
                 {
                     CMod mod = (CMod)lbInst.SelectedItem;
@@ -602,7 +603,7 @@ namespace RKLauncher
 
                     if (dep != null)
                     {
-                        dr = MessageBox.Show("The mod '" + mod.getName() + "' requires the mod '" + mod.getDependencies() + "' to be installed.\n\nCurrently I cannot find that module in your game but I have it in my repository.\n\nShall I install it?", mod.getDisplayName() + ": missing dependency!", MessageBoxButtons.YesNoCancel);
+                        dr = MessageBox.Show("The mod '" + mod.getName() + "' requires the mod '" + mod.getDependencies() + "' to be installed.\n\nCurrently I cannot find that module in your game but I have it in my repository.\n\nDo you want to install it?", mod.getDisplayName() + ": missing dependency!", MessageBoxButtons.YesNoCancel);
                         if (dr == System.Windows.Forms.DialogResult.Yes)
                         {
                             InstallMod(dep, true);
@@ -612,7 +613,7 @@ namespace RKLauncher
                     }
                     else
                     {
-                        dr = MessageBox.Show("The mod '" + mod.getName() + "' requires the mod '" + mod.getDependencies() + "' to be installed.\n\nCurrently I cannot find that module in your game and I don't find it in my repository.\n\nContinue anyways?", mod.getDisplayName() + ": missing dependency!", MessageBoxButtons.YesNo);
+                        dr = MessageBox.Show("The mod '" + mod.getName() + "' requires the mod '" + mod.getDependencies() + "' to be installed.\n\nCurrently I cannot find that module in your game and in my repository. Please consider to report this on RK forums...\n\nDo you want to continue anyways?", mod.getDisplayName() + ": missing dependency!", MessageBoxButtons.YesNo);
                         if (dr == System.Windows.Forms.DialogResult.No)
                             return null;
                     }
@@ -730,7 +731,7 @@ namespace RKLauncher
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Problem during installation of mod " + mod.ToString() + ":\n" + ex.Message, "Ooops...");
+                    MessageBox.Show("Problem during the installation of the mod " + mod.ToString() + ":\n" + ex.Message, "Ooops...");
                 }
 
                 return null;
@@ -759,7 +760,7 @@ namespace RKLauncher
 
             if (modsToUpdate.Count > 0)
             {
-                DialogResult dr = MessageBox.Show("The following updates are available:\n\n"+sModsToUpdate +"\nInstall them now?", "Updates found", MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("The following updates are available:\n\n"+sModsToUpdate +"\nDo you want to nstall them now?", "Updates found", MessageBoxButtons.YesNo);
                 if( dr == System.Windows.Forms.DialogResult.Yes )
                 {
                     foreach(CMod modToUpdate in modsToUpdate)
@@ -974,6 +975,11 @@ namespace RKLauncher
                     DirectoryCopy(subdir.FullName, tempPath, copySubDirs);
                 }
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://lifeplay.site");
         }
     }
 }

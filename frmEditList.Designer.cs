@@ -87,7 +87,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
@@ -107,11 +107,13 @@
             // lblLeft
             // 
             resources.ApplyResources(this.lblLeft, "lblLeft");
+            this.lblLeft.ForeColor = System.Drawing.Color.Khaki;
             this.lblLeft.Name = "lblLeft";
             // 
             // lblRight
             // 
             resources.ApplyResources(this.lblRight, "lblRight");
+            this.lblRight.ForeColor = System.Drawing.Color.Khaki;
             this.lblRight.Name = "lblRight";
             // 
             // tableLayoutPanel6
@@ -122,7 +124,7 @@
             // 
             // btnImportDefaults
             // 
-            this.btnImportDefaults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnImportDefaults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             resources.ApplyResources(this.btnImportDefaults, "btnImportDefaults");
             this.btnImportDefaults.Name = "btnImportDefaults";
             this.btnImportDefaults.UseVisualStyleBackColor = false;

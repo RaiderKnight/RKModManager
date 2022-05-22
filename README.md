@@ -1,8 +1,10 @@
 # RKModManager
-<p>A mod manager for LifePlay dedicated to the best mods and those that are compatible with the Remake.<br>
+<p>RKLauncher is a mod manager for LifePlay dedicated to the best mods and those that are compatible with the Remake.<br>
 The other difference is that this mod manager only accepts well built, functional and unique mods.</p>
 <p>This launcher/module manager is based on the LP-Modmanager plugin from NickNo.<br>
 https://github.com/NickNo-dev/LP-ModManager</p>
+<br>
+<p>Currently, the mod manager contains 34 mods.</p>
 <br>
 <hr>
 <br>

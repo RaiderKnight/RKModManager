@@ -261,6 +261,93 @@
   <data name="tableLayoutPanelLeft.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="tableLayoutPanelBottomLeft.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnAdvanced.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnAdvanced.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Garamond, 12pt, style=Bold</value>
+  </data>
+  <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 4</value>
+  </data>
+  <data name="btnAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 33</value>
+  </data>
+  <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnAdvanced.Text" xml:space="preserve">
+    <value>List editor</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Name" xml:space="preserve">
+    <value>btnAdvanced</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Parent" xml:space="preserve">
+    <value>tableLayoutPanelBottomLeft</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnUpdateAll.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnUpdateAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Garamond, 12pt, style=Bold</value>
+  </data>
+  <data name="btnUpdateAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="btnUpdateAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnUpdateAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 33</value>
+  </data>
+  <data name="btnUpdateAll.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnUpdateAll.Text" xml:space="preserve">
+    <value>Update all installed modules</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAll.Name" xml:space="preserve">
+    <value>btnUpdateAll</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAll.Parent" xml:space="preserve">
+    <value>tableLayoutPanelBottomLeft</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelBottomLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanelBottomLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 515</value>
+  </data>
+  <data name="tableLayoutPanelBottomLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanelBottomLeft.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelBottomLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 41</value>
+  </data>
+  <data name="tableLayoutPanelBottomLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="&gt;&gt;tableLayoutPanelBottomLeft.Name" xml:space="preserve">
     <value>tableLayoutPanelBottomLeft</value>
   </data>
@@ -275,6 +362,90 @@
   </data>
   <data name="tableLayoutPanelBottomLeft.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnAdvanced" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnUpdateAll" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAvailModules.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAvailModules.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lblAvailModules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="lblAvailModules.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblAvailModules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 16</value>
+  </data>
+  <data name="lblAvailModules.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblAvailModules.Text" xml:space="preserve">
+    <value>Available modules:</value>
+  </data>
+  <data name="&gt;&gt;lblAvailModules.Name" xml:space="preserve">
+    <value>lblAvailModules</value>
+  </data>
+  <data name="&gt;&gt;lblAvailModules.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAvailModules.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblAvailModules.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbRefreshRepo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbRefreshRepo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 0</value>
+  </data>
+  <data name="pbRefreshRepo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pbRefreshRepo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="pbRefreshRepo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pbRefreshRepo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshRepo.Name" xml:space="preserve">
+    <value>pbRefreshRepo</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshRepo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshRepo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshRepo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 17</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
     <value>tableLayoutPanel2</value>
@@ -339,6 +510,93 @@
   <data name="tableLayoutPanelRight.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="tableLayoutPanelBottomRight.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnLaunch.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnLaunch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Garamond, 12pt, style=Bold</value>
+  </data>
+  <data name="btnLaunch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 4</value>
+  </data>
+  <data name="btnLaunch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnLaunch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 34</value>
+  </data>
+  <data name="btnLaunch.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnLaunch.Text" xml:space="preserve">
+    <value>Launch game</value>
+  </data>
+  <data name="&gt;&gt;btnLaunch.Name" xml:space="preserve">
+    <value>btnLaunch</value>
+  </data>
+  <data name="&gt;&gt;btnLaunch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLaunch.Parent" xml:space="preserve">
+    <value>tableLayoutPanelBottomRight</value>
+  </data>
+  <data name="&gt;&gt;btnLaunch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDelMod.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnDelMod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Garamond, 12pt, style=Bold</value>
+  </data>
+  <data name="btnDelMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="btnDelMod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnDelMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 34</value>
+  </data>
+  <data name="btnDelMod.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnDelMod.Text" xml:space="preserve">
+    <value>Delete selected module</value>
+  </data>
+  <data name="&gt;&gt;btnDelMod.Name" xml:space="preserve">
+    <value>btnDelMod</value>
+  </data>
+  <data name="&gt;&gt;btnDelMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelMod.Parent" xml:space="preserve">
+    <value>tableLayoutPanelBottomRight</value>
+  </data>
+  <data name="&gt;&gt;btnDelMod.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelBottomRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanelBottomRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 514</value>
+  </data>
+  <data name="tableLayoutPanelBottomRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanelBottomRight.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelBottomRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 42</value>
+  </data>
+  <data name="tableLayoutPanelBottomRight.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;tableLayoutPanelBottomRight.Name" xml:space="preserve">
     <value>tableLayoutPanelBottomRight</value>
   </data>
@@ -353,6 +611,90 @@
   </data>
   <data name="tableLayoutPanelBottomRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnLaunch" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnDelMod" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblInstalledModules.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInstalledModules.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lblInstalledModules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="lblInstalledModules.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblInstalledModules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>551, 16</value>
+  </data>
+  <data name="lblInstalledModules.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblInstalledModules.Text" xml:space="preserve">
+    <value>Installed modules:</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledModules.Name" xml:space="preserve">
+    <value>lblInstalledModules</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledModules.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledModules.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledModules.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbRefreshLocal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pbRefreshLocal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 0</value>
+  </data>
+  <data name="pbRefreshLocal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pbRefreshLocal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="pbRefreshLocal.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pbRefreshLocal.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshLocal.Name" xml:space="preserve">
+    <value>pbRefreshLocal</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshLocal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshLocal.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;pbRefreshLocal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 17</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -438,504 +780,6 @@
   <data name="&gt;&gt;splitContainerContent.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tableLayoutPanelBottomLeft.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.Name" xml:space="preserve">
-    <value>btnAdvanced</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomLeft</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.Name" xml:space="preserve">
-    <value>btnUpdateAll</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomLeft</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 515</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 41</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomLeft.Name" xml:space="preserve">
-    <value>tableLayoutPanelBottomLeft</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomLeft.Parent" xml:space="preserve">
-    <value>tableLayoutPanelLeft</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomLeft.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanelBottomLeft.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnAdvanced" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnUpdateAll" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="btnAdvanced.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnAdvanced.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>302, 4</value>
-  </data>
-  <data name="btnAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 33</value>
-  </data>
-  <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="btnAdvanced.Text" xml:space="preserve">
-    <value>List editor</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.Name" xml:space="preserve">
-    <value>btnAdvanced</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomLeft</value>
-  </data>
-  <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnUpdateAll.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnUpdateAll.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="btnUpdateAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="btnUpdateAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnUpdateAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 33</value>
-  </data>
-  <data name="btnUpdateAll.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnUpdateAll.Text" xml:space="preserve">
-    <value>Update all installed modules</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.Name" xml:space="preserve">
-    <value>btnUpdateAll</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomLeft</value>
-  </data>
-  <data name="&gt;&gt;btnUpdateAll.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.Name" xml:space="preserve">
-    <value>lblAvailModules</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.Name" xml:space="preserve">
-    <value>pbRefreshRepo</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>597, 17</value>
-  </data>
-  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
-    <value>tableLayoutPanelLeft</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblAvailModules" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pbRefreshRepo" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,67" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="lblAvailModules.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblAvailModules.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="lblAvailModules.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1</value>
-  </data>
-  <data name="lblAvailModules.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblAvailModules.Size" type="System.Drawing.Size, System.Drawing">
-    <value>522, 16</value>
-  </data>
-  <data name="lblAvailModules.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblAvailModules.Text" xml:space="preserve">
-    <value>Available modules:</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.Name" xml:space="preserve">
-    <value>lblAvailModules</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;lblAvailModules.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pbRefreshRepo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbRefreshRepo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>530, 0</value>
-  </data>
-  <data name="pbRefreshRepo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="pbRefreshRepo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 17</value>
-  </data>
-  <data name="pbRefreshRepo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
-  </data>
-  <data name="pbRefreshRepo.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.Name" xml:space="preserve">
-    <value>pbRefreshRepo</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshRepo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.Name" xml:space="preserve">
-    <value>btnLaunch</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomRight</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.Name" xml:space="preserve">
-    <value>btnDelMod</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomRight</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 514</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>626, 42</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomRight.Name" xml:space="preserve">
-    <value>tableLayoutPanelBottomRight</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomRight.Parent" xml:space="preserve">
-    <value>tableLayoutPanelRight</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelBottomRight.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanelBottomRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnLaunch" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnDelMod" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="btnLaunch.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnLaunch.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="btnLaunch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 4</value>
-  </data>
-  <data name="btnLaunch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnLaunch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 34</value>
-  </data>
-  <data name="btnLaunch.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnLaunch.Text" xml:space="preserve">
-    <value>Launch game</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.Name" xml:space="preserve">
-    <value>btnLaunch</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomRight</value>
-  </data>
-  <data name="&gt;&gt;btnLaunch.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnDelMod.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnDelMod.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="btnDelMod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="btnDelMod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btnDelMod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 34</value>
-  </data>
-  <data name="btnDelMod.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnDelMod.Text" xml:space="preserve">
-    <value>Delete selected module</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.Name" xml:space="preserve">
-    <value>btnDelMod</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.Parent" xml:space="preserve">
-    <value>tableLayoutPanelBottomRight</value>
-  </data>
-  <data name="&gt;&gt;btnDelMod.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.Name" xml:space="preserve">
-    <value>lblInstalledModules</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.Name" xml:space="preserve">
-    <value>pbRefreshLocal</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>626, 17</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>tableLayoutPanelRight</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblInstalledModules" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pbRefreshLocal" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,67" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="lblInstalledModules.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblInstalledModules.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="lblInstalledModules.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 1</value>
-  </data>
-  <data name="lblInstalledModules.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblInstalledModules.Size" type="System.Drawing.Size, System.Drawing">
-    <value>551, 16</value>
-  </data>
-  <data name="lblInstalledModules.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblInstalledModules.Text" xml:space="preserve">
-    <value>Installed modules:</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.Name" xml:space="preserve">
-    <value>lblInstalledModules</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;lblInstalledModules.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pbRefreshLocal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pbRefreshLocal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>559, 0</value>
-  </data>
-  <data name="pbRefreshLocal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="pbRefreshLocal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 17</value>
-  </data>
-  <data name="pbRefreshLocal.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
-  </data>
-  <data name="pbRefreshLocal.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.Name" xml:space="preserve">
-    <value>pbRefreshLocal</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pbRefreshLocal.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="splitContainerHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -996,7 +840,7 @@
         xrGEB4Q7kpYt+YFEkZOK1xRbuRXz557qhaEleyamdJntjDPBFNNoGKyQJUeBHlltUVyish+p4G/1/dPi
         MsSVxRTHKMtY6L4f9Qe/u3VT/X3FpFAEap48760Tarfga9PzPg897+sIqh/hwi75lw9g6F30zZLWsQ9N
         63B2WdKMbTjfgJaHvO7ovlQtM5BKweuJfNMsNF9D/Xyxt599ju8gLl1NXsHuHnSlJXuhwrvrynv784zf
-        H5FvRblylUJmVpgAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfmBAkKCyEmS/c2AAAMlklEQVR4
+        H5FvRblylUJmVpgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAHdElNRQfmBAkKCyEmS/c2AAAMlklEQVR4
         Xu2cDVBVZRrH3Wa3Zttx2rbGbdt217Sxr91JYU1cNBRDSEIwF1QUxQ8MUfxWggAVFPxAQvkSSPxI3XQr
         xkRMSVOcaZko01Kb0UozNbUvK8u+n+3/ei/ec+//HM/lci6XmfvM/Ab8n+d5Oee573nPe573vXb4xcSP
         V6GiH+ugoh/roKIf66CiH+ugoh/roKIf66CiH+ugYpuQV1qqyC0ubmbMtGnSMzxC7u8TQmPaIVRsE4Yl
@@ -1164,15 +1008,6 @@
   <metadata name="cmAdvanced.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="cmAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 92</value>
-  </data>
-  <data name="&gt;&gt;cmAdvanced.Name" xml:space="preserve">
-    <value>cmAdvanced</value>
-  </data>
-  <data name="&gt;&gt;cmAdvanced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="editLifePlayNameListsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
@@ -1197,6 +1032,15 @@
   <data name="editLifePlaycasualOutfitsToolStripMenuItem.Text" xml:space="preserve">
     <value>Edit LifePlay &amp;casual outfits</value>
   </data>
+  <data name="cmAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 92</value>
+  </data>
+  <data name="&gt;&gt;cmAdvanced.Name" xml:space="preserve">
+    <value>cmAdvanced</value>
+  </data>
+  <data name="&gt;&gt;cmAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1204,7 +1048,7 @@
     <value>903, 10</value>
   </data>
   <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 16</value>
+    <value>332, 16</value>
   </data>
   <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1531,7 +1375,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>RK ModManager</value>
+    <value>RK Mod Manager</value>
   </data>
   <data name="&gt;&gt;editLifePlayNameListsToolStripMenuItem.Name" xml:space="preserve">
     <value>editLifePlayNameListsToolStripMenuItem</value>

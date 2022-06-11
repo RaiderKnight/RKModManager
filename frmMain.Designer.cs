@@ -150,6 +150,7 @@
             // btnAdvanced
             // 
             this.btnAdvanced.BackColor = System.Drawing.Color.Blue;
+            this.btnAdvanced.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.btnAdvanced, "btnAdvanced");
             this.btnAdvanced.ForeColor = System.Drawing.Color.White;
             this.btnAdvanced.Name = "btnAdvanced";
@@ -159,6 +160,7 @@
             // btnUpdateAll
             // 
             this.btnUpdateAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnUpdateAll.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.btnUpdateAll, "btnUpdateAll");
             this.btnUpdateAll.ForeColor = System.Drawing.Color.White;
             this.btnUpdateAll.Name = "btnUpdateAll";
@@ -181,6 +183,7 @@
             // 
             // pbRefreshRepo
             // 
+            this.pbRefreshRepo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbRefreshRepo.Image = global::RKLauncher.Properties.Resources.arrow_refresh_small;
             resources.ApplyResources(this.pbRefreshRepo, "pbRefreshRepo");
             this.pbRefreshRepo.Name = "pbRefreshRepo";
@@ -206,6 +209,7 @@
             // btnLaunch
             // 
             this.btnLaunch.BackColor = System.Drawing.Color.Green;
+            this.btnLaunch.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.btnLaunch, "btnLaunch");
             this.btnLaunch.ForeColor = System.Drawing.Color.White;
             this.btnLaunch.Name = "btnLaunch";
@@ -215,6 +219,7 @@
             // btnDelMod
             // 
             this.btnDelMod.BackColor = System.Drawing.Color.Red;
+            this.btnDelMod.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.btnDelMod, "btnDelMod");
             this.btnDelMod.ForeColor = System.Drawing.Color.White;
             this.btnDelMod.Name = "btnDelMod";
@@ -237,6 +242,7 @@
             // 
             // pbRefreshLocal
             // 
+            this.pbRefreshLocal.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.pbRefreshLocal, "pbRefreshLocal");
             this.pbRefreshLocal.Image = global::RKLauncher.Properties.Resources.arrow_refresh_small;
             this.pbRefreshLocal.Name = "pbRefreshLocal";
@@ -318,6 +324,7 @@
             // linkLabel1
             // 
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.LinkColor = System.Drawing.Color.PaleTurquoise;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;

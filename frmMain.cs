@@ -22,13 +22,15 @@ namespace RKLauncher
         private Dictionary<string, CMod> m_ModsAvailable = new Dictionary<string, CMod>();
         private Dictionary<string, CMod> m_ModsInstalled = new Dictionary<string, CMod>();
 
-        private const string MOD_SUBFOLDER = @"LifePlay\Content\Modules\";
+        private const string MOD_SUBFOLDER = @"LifePlay\\Content\\Modules\\";
         private const string BASE_REPO_URL = "https://raw.githubusercontent.com/RaiderKnight/LPMods/main/";
-
+        private string rKLUrlPathX = "https://raw.githubusercontent.com/RaiderKnight/RKModManager/main/rkCL.xml";
         private string m_sPath = "";
+        private string rkLauncherVersionCust = "1.4.6";
         private string m_sLifePlayVersionInstalled = "";
         private string m_sLifePlayVersionAvailable = "";
         private string m_sLauncherVersionAvailable = "";
+        private string rkLauncherVersionAvailable = "";
 
         private Point m_ptDndStart;
 
@@ -47,8 +49,8 @@ namespace RKLauncher
                     case 1: // argument 1 is alternative installation path
                         string path = arg;
                         path = path.Trim('"');
-                        if(!path.EndsWith("\\"))
-                            path+="\\";
+                        if (!path.EndsWith("\\"))
+                            path += "\\";
 
                         if (Directory.Exists(path))
                             m_sPath = path;
@@ -68,11 +70,37 @@ namespace RKLauncher
         private void Form1_Load(object sender, EventArgs e)
         {
             GetLifePlayVersion();
-            
             RefreshLocalMods();
             RefreshRepoMods();
+            GetUpdateRKLVersion();
 
-            this.Text = "RK ModManager " + Application.ProductVersion.ToString();
+            this.Text = "RK Mod Launcher " + rkLauncherVersionCust.ToString();
+        }
+
+        private void GetUpdateRKLVersion()
+        {
+            try
+            {
+                XmlDocument GetRKLVersion = new XmlDocument();
+                GetRKLVersion.Load(rKLUrlPathX);
+                XmlNode root = GetRKLVersion.DocumentElement.SelectSingleNode("/RKLDefinition");
+                foreach (XmlNode modXml in root.ChildNodes)
+                {
+                    string ver = modXml.Attributes["name"].InnerText;
+                    rkLauncherVersionAvailable = ver;
+
+                    if (rkLauncherVersionAvailable != rkLauncherVersionCust)
+                    {
+                        DialogResult dr = MessageBox.Show("There is a new version of the launcher available.\nWould you like to download the latest version?", "RKLauncher is out dated", MessageBoxButtons.YesNo);
+                        if (dr == DialogResult.Yes)
+                        {
+                            Process.Start(Path.Combine("https://github.com/RaiderKnight/RKModManager/releases/tag/" + rkLauncherVersionCust));
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            { }
         }
 
         private void GetLifePlayVersion()
@@ -90,18 +118,23 @@ namespace RKLauncher
                 string pathToLog = m_sPath + "Docs\\change_logs.txt";
                 if (File.Exists(pathToLog))
                 {
-                    using(StreamReader sr = File.OpenText(pathToLog))
+                    using (StreamReader sr = File.OpenText(pathToLog))
                     {
                         string version = sr.ReadLine();
+                        if (version.Contains(" Beta "))
+                        { 
+                            version = version.Replace(" Beta ", "."); 
+                        }
+                        
                         version = version.Trim();
                         version = version.TrimEnd(':');
-                        version = version.Replace("Beta", ".");
-                        int idx = version.LastIndexOf(' ');
-                        if( idx > 1)
-                            version = version.Substring(idx+1);
-                        
+                        /*int idx = version.LastIndexOf(' ');
+                        if (idx > 1)
+                            version = version.Substring(idx + 1); */
+
                         m_sLifePlayVersionInstalled = version;
                         lblLPVersion.Text = version;
+                        
                     }
                 }
             }
@@ -254,6 +287,7 @@ namespace RKLauncher
                         {
                             string val = modXml.Value;
                             string searchVer = "#Current LifePlay Version:";
+                            
                             if (val.Contains(searchVer))
                             {
                                 val = val.Trim();
@@ -328,9 +362,10 @@ namespace RKLauncher
 
             try
             {
-                string [] aInst = m_sLifePlayVersionInstalled.Split('.');
-                string[] aAvail = m_sLifePlayVersionAvailable.Split('.');
-
+                
+                string[] aInst = m_sLifePlayVersionInstalled.Split('.');
+                string [] aAvail = m_sLifePlayVersionAvailable.Split('.');
+                
                 int majorInst = int.Parse(aInst[0]);
                 int majorAvail = int.Parse(aAvail[0]);
                 int minorInst = int.Parse(aInst[1]);
@@ -343,26 +378,27 @@ namespace RKLauncher
                         DialogResult dr = MessageBox.Show("Looks like you are running an old version of LifePlay.\nWould you like to download the latest version?", "LifePlay is out dated", MessageBoxButtons.YesNo);
                         if (dr == System.Windows.Forms.DialogResult.Yes)
                         {
-                            Process.Start("https://f95zone.to/threads/lifeplay-v2-17-vinfamy.11321/");
+                            Process.Start("https://www.patreon.com/vinfamy/posts?filters%5Btag%5D=release");
                         }
                     }
                 }
             }
             catch (Exception) { }
 
-            if(m_sLauncherVersionAvailable.Length>0 && m_sLauncherVersionAvailable != Application.ProductVersion.ToString())
+
+            /*if (m_sLauncherVersionAvailable.Length > 0 && m_sLauncherVersionAvailable != Application.ProductVersion.ToString())
             {
                 DialogResult dr = MessageBox.Show("There is a new version of the launcher available.\nWould you like to download the latest version?", "RKLauncher is out dated", MessageBoxButtons.YesNo);
                 if (dr == System.Windows.Forms.DialogResult.Yes)
                 {
-                    Process.Start("https://github.com/RaiderKnight/RKModManager/releases/latest");
+                    Process.Start("https://github.com/RaiderKnight/RKModManager/releases");
                 }
-            }
+            }*/
         }
 
         private void btnLaunch_Click(object sender, EventArgs e)
         {
-            if( File.Exists( m_sPath + "lifeplay.exe") )
+            if ( File.Exists( m_sPath + "lifeplay.exe") )
             {
                 WriteModControlFile();
 
@@ -760,7 +796,7 @@ namespace RKLauncher
 
             if (modsToUpdate.Count > 0)
             {
-                DialogResult dr = MessageBox.Show("The following updates are available:\n\n"+sModsToUpdate +"\nDo you want to nstall them now?", "Updates found", MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("The following updates are available:\n\n"+sModsToUpdate +"\nDo you want to install them now?", "Updates found", MessageBoxButtons.YesNo);
                 if( dr == System.Windows.Forms.DialogResult.Yes )
                 {
                     foreach(CMod modToUpdate in modsToUpdate)

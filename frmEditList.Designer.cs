@@ -79,6 +79,7 @@
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.Green;
+            this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.DialogResult = System.Windows.Forms.DialogResult.OK;
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
@@ -88,6 +89,7 @@
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Red;
+            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
@@ -125,6 +127,7 @@
             // btnImportDefaults
             // 
             this.btnImportDefaults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnImportDefaults.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.btnImportDefaults, "btnImportDefaults");
             this.btnImportDefaults.Name = "btnImportDefaults";
             this.btnImportDefaults.UseVisualStyleBackColor = false;

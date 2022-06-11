@@ -98,7 +98,7 @@ namespace RKLauncher
         public string getDisplayName() 
         {
             if (isRepoMod())
-                return (m_bIsUpdated ? "[Update Avail] " : "") + m_sName + " (" + m_sVersion + ")";
+                return (m_bIsUpdated ? "[Update Available] " : "") + m_sName + " (" + m_sVersion + ")";
             else
                 return m_sName + (m_sVersion!=null ? " (" + m_sVersion + ") " : "" ) + (isEnabled() ? "" : " [disabled]");
         }

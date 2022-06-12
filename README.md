@@ -7,7 +7,7 @@ The other difference is that this mod manager only accepts well built, functiona
 <p>This launcher/module manager is based on the LP-Modmanager plugin from NickNo.<br>
 https://github.com/NickNo-dev/LP-ModManager</p>
 <br>
-<p>Currently, the mod manager contains 35 mods.</p>
+<p>Currently, the mod manager contains 36 mods.</p>
 <br>
 <hr>
 <br>

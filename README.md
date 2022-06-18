@@ -1,13 +1,29 @@
 # RKModManager
 <p>RKLauncher is a mod manager for LifePlay dedicated to the best mods and those that are compatible with the Remake.<br>
-The other difference is that this mod manager only accepts well built, functional and unique mods.</p>
 <br>
-<img src="https://github.com/RaiderKnight/RKModManager/blob/main/RKLauncher_screenshot.jpg" alt"screenshot" />
+<p>RKLauncher is based on <a href="https://github.com/NickNo-dev/LP-ModManager">LP-ModManager plugin made by NickNo</a>, but with some difference and improvement:</p>
+<ol>
+<li> It is maintained</li>
+<li> New design</li>
+<li> Only contain the best unique mods</li>
+<li> Only accepts/adds well built, functional and unique mods.</li>
+<li> More mods and options offered</li>
+</ol>
 <br>
-<p>This launcher/module manager is based on the LP-Modmanager plugin from NickNo.<br>
-https://github.com/NickNo-dev/LP-ModManager</p>
+<img src="https://github.com/RaiderKnight/RKModManager/blob/main/RKLauncher_screenshot.jpg" alt"screenshot" /><br>
 <br>
-<p>Currently, the mod manager contains 37 mods.</p>
+<h3>Features</h3>
+<ul>
+<li>Currently, the mod manager contains 37 mods.</li>
+<li>You are notified when a new version of a module is available.</li>
+<li>You can delete/update your installed addons/mods automatically</li>
+<li>Option to edit clothing list (casual, sports, swim, work)</li>
+<li>Option to edit name list</li>
+<li>You can download new city maps</li>
+<li>You can launch the game from RKLauncher</li>
+<li>You are alerted when a new version of RKLauncher is available</li>
+<li>...</li>
+</ul>
 <br>
 <hr>
 <br>

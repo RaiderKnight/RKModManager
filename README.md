@@ -14,7 +14,7 @@
 <br>
 <h3>Features</h3>
 <ul>
-<li>Currently, the mod manager contains 37 mods.</li>
+<li>Currently, the mod manager contains 40 mods.</li>
 <li>You are notified when a new version of a module is available.</li>
 <li>You can delete/update your installed addons/mods automatically</li>
 <li>Option to edit clothing list (casual, sports, swim, work)</li>

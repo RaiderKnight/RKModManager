@@ -1,7 +1,7 @@
-<Repo>
+<Repo lpversion="5.2">
     <!-- #Current LifePlay Version: 5.2 -->
     <!-- #Current Launcher Version: 1.4.7 -->
-    <LifePlayV lpversion="5.2"></LifePlayV>
+    
     <!-- NickNo's Mods (5) -->
     <Mod Id="nn_PornEmpire" Name="NickNo's Porn Empire" Version="0.7.1"
     Path="NickNo/nn_PornEmpire-0.7.1.zip"

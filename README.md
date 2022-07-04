@@ -1,5 +1,6 @@
-# RKModManager
-<p>RKLauncher is a mod manager for LifePlay dedicated to the best mods and those that are compatible with the Remake.<br>
+# RKModManager (RKLauncher)
+<p>RKLauncher is a mod manager for the game LifePlay.</p>
+<p>Dedicated to the best mods and those that are compatible with the Remake.<br>
 <br>
 <p>RKLauncher is based on <a href="https://github.com/NickNo-dev/LP-ModManager">LP-ModManager plugin made by NickNo</a>, but with some difference and improvement:</p>
 <ol>
@@ -71,6 +72,13 @@ Double click again to enable them again.</p>
 <p>You cannot disable lpaddons, the in game editors will always "see" presets supplied by these addons unless you delete the faulty addon.</p>
 <br>
 <p>To delete a mod: Just select the one you don't need then click the red "Delete selected module" button. The module will be erased permanently.</p>
+<br>
+<hr>
+<br>
+<h3>How to add my mod to this repo?</h3>
+<p>Visit this page for more info: https://github.com/RaiderKnight/LPMods</p>
+<p>If it's not the first time, you can go to https://lifeplay.site/viewtopic.php?t=426, reply to the topic asking to add your mod to RKLauncher.</p>
+<p>And then, if you are sure to be accepted, you can create a topic for your mod on the Raider Knight's forum right away.</p>
 <br>
 <hr>
 <br>

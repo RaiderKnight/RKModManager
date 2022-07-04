@@ -77,8 +77,10 @@ Double click again to enable them again.</p>
 <br>
 <h3>How to add my mod to this repo?</h3>
 <p>Visit this page for more info: https://github.com/RaiderKnight/LPMods</p>
-<p>If it's not the first time, you can go to https://lifeplay.site/viewtopic.php?t=426, reply to the topic asking to add your mod to RKLauncher.</p>
-<p>And then, if you are sure to be accepted, you can create a topic for your mod on the Raider Knight's forum right away.</p>
+<p>If it's not the first time, you can go to https://lifeplay.site/viewtopic.php?t=426,<br> 
+reply to the topic asking to add your mod to RKLauncher.</p>
+<p>And then, if you are sure to be accepted,<br>
+you can create a topic for your mod on the Raider Knight's forum right away.</p>
 <br>
 <hr>
 <br>

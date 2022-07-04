@@ -10,18 +10,19 @@
 <li> More mods and options offered</li>
 </ol>
 <br>
-<img src="https://github.com/RaiderKnight/RKModManager/blob/main/RKLauncher_screenshot.jpg" alt"screenshot" /><br>
+<img src="https://github.com/RaiderKnight/RKModManager/blob/main/RKLauncher_screenshot.jpg" alt"screenshot" />
 <br>
 <h3>Features</h3>
 <ul>
-<li>Currently, the mod manager contains 40 mods.</li>
-<li>You are notified when a new version of a module is available.</li>
+<li>Currently, the mod manager contains 43 mods.</li>
+<li>You are informed when a new version of a module is available.</li>
+<li>You are informed when a new version of a RKLauncher is available.</li>
+<li>You are informed when a new version of a LifePlay is available.</li>
 <li>You can delete/update your installed addons/mods automatically</li>
 <li>Option to edit clothing list (casual, sports, swim, work)</li>
 <li>Option to edit name list</li>
 <li>You can download new city maps</li>
 <li>You can launch the game from RKLauncher</li>
-<li>You are alerted when a new version of RKLauncher is available</li>
 <li>...</li>
 </ul>
 <br>
@@ -73,15 +74,16 @@ Double click again to enable them again.</p>
 <br>
 <hr>
 <br>
-<p><strong>Bugs or suggestions:</strong><br>
-Just contact me "Raddeck" on my:</p>
-<ul><li>Website: https://raiderknight.com</li>
-<li>Forums: https://lifeplay.site</li>
-<li>Github: https://github.com/RaiderKnight</li>
-<li>Discord: https://discord.gg/d3U9E2wb4Y</li></ul>
+<h3>Contributing</h3>
+<p>Visit the <a href="https://lifeplay.site">Raider Knight community forums</a> or my <a href="https://discord.gg/d3U9E2wb4Y">Discord</a> server for help, to submit a bug, to contribute to the improvement of the application or just to chat!</p>
 <br>
 <hr>
 <br>
-<blockquote> I'm a freelance coder, who love playing with codes.<br>
-I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with the LifePlay team, or any of its subsidiaries or its affiliates.<br>
-All images, icons, animations, code snippets are from LifePlay.</blockquote>
+<h3>Supporting</h3>
+<ul>
+<li>Via <a href="https://www.patreon.com/raiderknight">Patreon</a></li>
+<li>Via <a href="https://www.buymeacoffee.com/raiderknight">Discord</a></li>
+</ul>
+<br>
+<hr>
+<br>

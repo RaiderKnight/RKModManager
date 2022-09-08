@@ -15,7 +15,7 @@
 <br>
 <h3>Features</h3>
 <ul>
-<li>Currently, the mod manager contains 44 mods.</li>
+<li>Currently, the mod manager contains 49 mods.</li>
 <li>You are informed when a new version of a module is available.</li>
 <li>You are informed when a new version of a RKLauncher is available.</li>
 <li>You are informed when a new version of a LifePlay is available.</li>

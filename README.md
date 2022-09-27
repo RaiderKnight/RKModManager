@@ -1,4 +1,4 @@
-# RKModManager (RKLauncher)
+# RKModManager (RKLauncher) - ABANDONED
 <p>RKLauncher is a mod manager for the game LifePlay.</p>
 <p>Dedicated to the best mods and those that are compatible with the Remake.<br>
 <br>
